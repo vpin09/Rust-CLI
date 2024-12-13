@@ -1,0 +1,9 @@
+[package]
+name = "Rust-CLI"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[workspace]
+members=[ "clap/ANSI_term","clap/parse_cli"]
